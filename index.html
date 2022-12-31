@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <script src="https://kit.fontawesome.com/0dbf91eb29.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="/assets/images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Candidate of Web Developer</p>
+            <h1>Hi, I'm <span>Andre</span><br> Juan From Indonesia</h1>
+        </header-text>
+        </div>
+    </div>
+</div> 
+<!-- About  -->
+<main>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="/assets/images/user.png">
+            </div>
+            <div class="about-col-2">   
+                <h1 class="sub-title">About Me</h1>
+                <p>Tireless to pursue what you dream of knowing the concept of Kaizen in life and also diligent in learning something new. 
+                    I am good at playing the drums and serving at a church in Medan, 
+                    and also want to become a web developer so that I can become a web developer and earn money and be a blessing to the 
+                    people around me from the knowledge I have learned.   
+                </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-end Dev</span><br>Understand Basic Web Developer, and now learning to Front-end Developer</li>
+                            <li><span>Back-End Dev</span><br>Able to create Back-end Developer applications</li>
+                            <li><span>Drummer</span><br>Good at playing drums</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current </span><br>Create a basic portfolio website for Dicoding submissions </li>
+                            <li><span>2022 - Current</span><br>Create Back-end Apps for application MEY (Mental Education Yes)</li>
+                            <li><span>2010 - Current</span><br>Serving at one of the GPT Christ Alfa Omega churches in Medan as a drummer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - 2022 </span><br>Graduate of the Web Fundamental Dicoding class</li>
+                            <li><span>March 2022 - July 2022</span><br>Graduate of the Back-End Dev Dicoding class</li>
+                            <li><span>2010 - 2014</span><br>Learn Drum autodidact</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+</main>
+<!-- service -->
+<aside>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Front-End Developer</h2>
+                <p>You can see my project on the link i create many project.</p>
+                <a href="https://github.com/AndreJu16">Click Here to See </a>    
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Back-End Developer</h2>
+                <p>I created a Back-end application for a project called MEY (Mental Education Yes).
+                    
+                </p>
+                <a href="https://github.com/MEY-Mental-Education-Yes/MEY-APP-BACKEND">Click Here to see </a>    
+            </div>
+            <div>
+                <i class="fa-solid fa-music"></i>
+                <h2>Music</h2>
+                <p>I serve at GPT Kristus Alfa Omega Church as a drummer. I've been learning to play the drums for a long time on an autodidact basis from grade 1 of junior high school. 
+                    and I practiced it until I could</p>
+                <a href="https://drive.google.com/drive/folders/1IVFqyHTGC5nJh0SgjE5yqIo_flPARWIZ?usp=share_link">Click Here To See My Video Record </a>    
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Activity</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/assets/images/work-1.png">
+                <div class="layer">
+                    <h3>Interns at Bangkit Academy</h3>
+                    <p>Mengikuti Program Bangkit membuat saya menjadi yakin untuk menjadi seorang Web Developer 
+                        saya mengikuti dari Februari 2022 sampai Agustus 2022 dan berikut beberapa kegiatan dan aktifitas yang saya ikuti
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=9QP3Sbg55UU&ab_channel=AndreJuan"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/assets/images/work-2.png">
+                <div class="layer">
+                    <h3>Aktivitas Melayani di GPT Kristus Alfa Omega </h3>
+                    <p>Foto ini diambil pada tanggal 23 Desember saat pelayanan Natal di gereja tersebut </p>
+                    <a href="https://www.youtube.com/watch?v=Gc2yjA2GrYY&ab_channel=GPTKristusAlfaOmegaMedanHelvetia"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/assets/images/work-3.png">
+                <div class="layer">
+                    <h3>Work At Universitas Prima Indonesia </h3>
+                    <p>Mulai bekerja tanggal 20 November dan sudah sebulan training disana 
+                        Tuhan semoga gaji aku disana naik dan juga bisa karir aku di 
+                        Web Developer meningkat Tuhan amin.
+                    </p>
+                    <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+        </div>
+        <!-- <a href="#" class="btn">See More</a> -->
+    </div>
+</div>
+</aside>
+<!-- contact -->
+<footer>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>andrejuan103@gmail.com</p>
+                <p><i class="fa-brands fa-whatsapp"></i>081368165048</p>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/andre.juan.902/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://medium.com/@andrejuan103"><i class="fa-brands fa-medium"></i></a>
+                    <a href="https://www.instagram.com/andrejuan103/?hl=id"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/andre-juan-simanjuntak-1a1aa9232/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="/assets/images/my-cv.pdf" download class="btn btn2">Download Cv</a> 
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+
+        </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Juan. <i class="fa-solid fa-gamepad"></i> inspiration from Easy Tutorial</p>
+    </div>
+</div> 
+</footer>
+<script src="assets/styles/script.js"></script>
+</body>
+</html>
